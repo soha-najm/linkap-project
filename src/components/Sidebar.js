@@ -22,7 +22,7 @@ const Sidebar = () => {
               </ListItemIcon>
               <ListItemText><Link href="/dashboard" underline="none"   color="inherit">Dashboard</Link></ListItemText>
             </ListItemButton>
-            <ListItemButton onClick={()=> localStorage.deleteItem("loggedInId")} >
+            <ListItemButton>
               <ListItemIcon>
                 <LoginIcon />
               </ListItemIcon>
